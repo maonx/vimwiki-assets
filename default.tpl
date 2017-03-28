@@ -84,6 +84,11 @@
   </div>
 </footer>
 <script>
+$("img").each(function(){
+    var temp;
+    temp = $(this).attr("src").replace(/.*vimwiki\//i, "");
+    $(this).attr("src", temp);
+      })
     $('h1').each(function() {
         $(this).wrap('<section id="' + this.id + '"/>');
     });
