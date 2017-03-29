@@ -86,7 +86,7 @@
 <script>
 $("img").each(function(){
     var temp;
-    temp = $(this).attr("src").replace(/.*vimwiki\//i, "");
+    temp = $(this).attr("src").replace(/.*images/i, "images");
     $(this).attr("src", temp);
       })
     $('h1').each(function() {
