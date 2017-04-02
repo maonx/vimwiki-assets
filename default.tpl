@@ -6,6 +6,7 @@
 
 <link type="text/css" rel="stylesheet" href="%root_path%assets/css/bootstrap.css" />
 <link type="text/css" rel="stylesheet" href="%root_path%assets/css/bootstrap-responsive.css" />
+<link type="text/css" rel="stylesheet" href="%root_path%assets/css/default.css" />
 <link type="text/css" rel="stylesheet" href="%root_path%assets/css/docs.css" />
 <link type="text/css" rel="stylesheet" href="%root_path%assets/css/monokai.css" />
 <link type="text/css" rel="stylesheet" href="%root_path%assets/css/vimwiki.css" />
@@ -86,7 +87,7 @@
 <script>
 $("img").each(function(){
     var temp;
-    temp = $(this).attr("src").replace(/.*images/i, "images");
+    temp = $(this).attr("src").replace(/\.\.\/.*\\/i, "\.\.\/");
     $(this).attr("src", temp);
       })
     $('h1').each(function() {
