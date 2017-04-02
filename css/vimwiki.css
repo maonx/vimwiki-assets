@@ -1,5 +1,6 @@
 body {
-    height: 100%
+    height: 100%;
+    padding-top: 51px;
 }
 
 code {
@@ -42,4 +43,16 @@ li.done4 {
     outline: none;
     text-decoration:none;
     color: #0088cc;
+}
+.navbar-header .avatar {
+  display: bottom;
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 50px;
+}
+.navbar-header .avatar img{
+  width: 48px;
 }

@@ -1,8 +1,8 @@
 # Description
-Vimwiki Template
+A Vimwiki HTML Template
 
 # Requirements
- * Twitter Bootstrap
+ * Bootstrap 3.3.7
  * highlight.js 9.10.0
  * Font Awesome 4.7.0
 
