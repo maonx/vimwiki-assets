@@ -6,7 +6,7 @@
 
     <link type="text/css" rel="stylesheet" href="%root_path%assets/css/bootstrap.css" />
     <!-- <link type="text/css" rel="stylesheet" href="%root_path%assets/css/bootstrap-responsive.css" /> -->
-    <link type="text/css" rel="stylesheet" href="%root_path%assets/css/default.css" />
+    <!-- <link type="text/css" rel="stylesheet" href="%root_path%assets/css/default.css" /> -->
     <link type="text/css" rel="stylesheet" href="%root_path%assets/css/docs.css" />
     <link type="text/css" rel="stylesheet" href="%root_path%assets/css/monokai.css" />
     <link type="text/css" rel="stylesheet" href="%root_path%assets/font-awesome/css/font-awesome.css">
@@ -36,7 +36,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="http://maonx.github.io/"><i class="fa fa-home fa-fw"></i>Home<span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="%root_path%index.html"><i class="fa fa-home fa-fw"></i>Home<span class="sr-only">(current)</span></a></li>
             <li><a href="#">Todo</a></li>
           </ul>
           <p class="navbar-text navbar-right">Maonx's life</p>
