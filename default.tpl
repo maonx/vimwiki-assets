@@ -19,38 +19,42 @@
     <title>%title%</title>
 
   </head>
-  <body data-spy="scroll" data-target=".bs-docs-sidebar">
-    <nav class="navbar navbar-default navbar-fixed-top">
+  <body>
+    <header class="navbar navbar-static-top bs-docs-nav">
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="avatar" href="#"><img src="%root_path%assets/avatar.png" ></a>
-        </div>
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">I'm Maonx</a>
+            </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="%root_path%index.html"><i class="fa fa-home fa-fw"></i>Home<span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Todo</a></li>
-          </ul>
-          <p class="navbar-text navbar-right">Maonx's life</p>
-        </div><!-- /.navbar-collapse -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <nav id="bs-navbar" class="navbar-collapse collapse in">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="%root_path%index.html"><i class="fa fa-home fa-fw"></i>Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Todo</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </div><!-- /.container-fluid -->
-    </nav>
+    </header>
     <div class="container">
-      <div class="row-fluid">
+      <div class="row">
         <!-- <div class="span3 bs-docs-sidebar"> -->
         <!--   <ul id="sidebar_list" class="nav nav-list bs-docs-sidenav affix"> -->
         <!--   </ul> -->
         <!-- </div> -->
-
-        <div class="span7">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
           <!--Body content-->
           %content%
 
@@ -60,7 +64,7 @@
     <a href="#" class="backtotop"><i class="fa fa-arrow-circle-up fa-4x"></i></a>
     <!-- Footer
       ================================================== -->
-      <footer class="footer ">
+      <footer class="bs-docs-footer ">
         <div class="container">
           <p>© 2017 <i class="fa fa-heart fa-1x"></i> Maonx | Powered by <a href="http://vimwiki.github.io/" target="_blank">Vimwiki</a></p>
         </div>
