@@ -39,7 +39,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <nav id="bs-navbar" class="navbar-collapse collapse in">
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="%root_path%index.html"><i class="fa fa-home fa-fw"></i>Home<span class="sr-only">(current)</span></a></li>
+                <li class=""><a href="%root_path%index.html"><i class="fa fa-home fa-fw"></i>Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="%root_path%diary/diary.html"><i class="fa fa-book fa-fw"></i>Blog</a></li>
                 <li><a href="#">Todo</a></li>
               </ul>
             </nav>
@@ -80,18 +81,22 @@ $('h1').each(function() {
 });
 
 $('h1').wrap('<div class="page-header" />');
-$('h1').wrap('<div class="well well-small" />');
+/* $('h1').wrap('<div class="well well-small" />'); */
 
 $(document).ready(function() {
-  var items = [];
-  $('h1').each(function() {
-    items.push('<li><a href="#' + this.id + '"><i class="fa fa-chevron-right pull-right"></i> ' + $(this).text() + '</a></li>');
-  });  // close each()
+  /* var items = []; */
+  /* $('h1').each(function() { */
+  /*   items.push('<li><a href="#' + this.id + '"><i class="fa fa-chevron-right pull-right"></i> ' + $(this).text() + '</a></li>'); */
+  /* });  // close each() */
 
-  $('#sidebar_list').append( items.join('') );
+  /* $('#sidebar_list').append( items.join('') ); */
 
   $('table').each(function() {
     $(this).addClass('table table-striped table-condensed table-hover');
+  });
+
+  $('.tag').each(function() {
+    $(this).addClass('label label-primary');
   });
 
   $('.done0').each(function() {
