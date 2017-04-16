@@ -1,47 +1,57 @@
+/* Custom css */
 body {
-    height: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.6;
 }
-
+.navbar {
+  border-top: 2px solid #563d7c;
+}
+.footer {
+  text-align: center;
+  color: #999;
+  margin-top: 50px;
+}
 code {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 li.done0 {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 li.done4 {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .backtotop{
-    outline: none;
-    text-decoration:none;
-    width:40px;
-    height:40px;
-    color: #0088cc;
-    opacity:0.3;
-    position:fixed;
-    bottom:50px;
-    right:100px;
+  outline: none;
+  text-decoration:none;
+  width:40px;
+  height:40px;
+  color: #0088cc;
+  opacity:0.3;
+  position:fixed;
+  bottom:50px;
+  right:100px;
 }
 
 .backtotop:hover{
-    outline: none;
-    text-decoration:none;
-    opacity:1.0;
-    color: #0088cc;
+  outline: none;
+  text-decoration:none;
+  opacity:1.0;
+  color: #0088cc;
 }
 
 .backtotop:focus{
-    outline: none;
-    text-decoration:none;
+  outline: none;
+  text-decoration:none;
 }
 
 .backtotop:visited{
-    outline: none;
-    text-decoration:none;
-    color: #0088cc;
+  outline: none;
+  text-decoration:none;
+  color: #0088cc;
 }
 .navbar-header .avatar {
   display: bottom;
@@ -54,4 +64,10 @@ li.done4 {
 }
 .navbar-header .avatar img{
   width: 48px;
+}
+
+pre {
+  background-color: #272822;
+  border: 2px solid #ccc;
+  color: #eee;
 }

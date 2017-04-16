@@ -27,7 +27,7 @@
           <div class="col-sm-8">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -37,7 +37,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <nav id="bs-navbar" class="navbar-collapse collapse in">
+            <nav id="bs-navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li class=""><a href="%root_path%index.html"><i class="fa fa-home fa-fw"></i>Home<span class="sr-only">(current)</span></a></li>
                 <li><a href="%root_path%diary/diary.html"><i class="fa fa-book fa-fw"></i>Blog</a></li>
@@ -65,7 +65,7 @@
     <a href="#" class="backtotop"><i class="fa fa-arrow-circle-up fa-4x"></i></a>
     <!-- Footer
       ================================================== -->
-      <footer class="bs-docs-footer ">
+      <footer class="footer">
         <div class="container">
           <p>© 2017 <i class="fa fa-heart fa-1x"></i> Maonx | Powered by <a href="http://vimwiki.github.io/" target="_blank">Vimwiki</a></p>
         </div>
@@ -76,12 +76,12 @@ $("img").each(function(){
   temp = $(this).attr("src").replace(/\.\.\/.*\\/i, "\.\.\/");
   $(this).attr("src", temp);
 })
-$('h1').each(function() {
-  $(this).wrap('<section id="' + this.id + '"/>');
-});
+/* $('h1').each(function() { */
+/*   $(this).wrap('<section id="' + this.id + '"/>'); */
+/* }); */
 
 $('h1').wrap('<div class="page-header" />');
-/* $('h1').wrap('<div class="well well-small" />'); */
+/* /1* $('h1').wrap('<div class="well well-small" />'); *1/ */
 
 $(document).ready(function() {
   /* var items = []; */
